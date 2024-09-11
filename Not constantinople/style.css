@@ -1,17 +1,21 @@
+*{
+    top: 0px;
+    border: 0px;
+    bottom: 0px;
+}
 .navegacao {
+    border: 0px;
+    bottom: 0px;
+    top: 0px;
     display: flex;
-    gap: 50px;
+    gap: 180px;
     position: sticky;
-    top: 0;
-    padding: 10px 16px;
     background: rgb(245, 183, 101);
-    color: rgb(128, 87, 13);
     font-size: medium;
-    font-family: 'Trebuchet MS';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    border: none;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 30px 30px;
     /*ver como colocar os itens no meio e aumentar header de tamanho*/
 }
 
@@ -42,12 +46,12 @@
 
 .fundacao{
     top: 5px;
-    max-width: 200;
+    max-width: 95%;
 }
 
 .origem {
     text-align: justify;
-    max-width: 80%; 
+    max-width: 95%; 
 }
 
 figcaption {
@@ -83,9 +87,14 @@ h2{
     font-family: 'Trebuchet MS';
 }
 
+h3{
+    font-family: 'Lucida Sans Unicode';
+}
+
+
 #botao{
     display: flex;
-    justify-content: right;
+    justify-content: left;
     align-items: center;
     font-family: 'Trebuchet MS';
     
@@ -112,7 +121,7 @@ h2{
 
 #box{
     display: inline-block;
-    background-color: rgb(245, 183, 101);
+    background-color: rgb(240, 211, 174);
     color: black;
     border: none;
     border-radius: 10px;
@@ -120,4 +129,6 @@ h2{
     font-size: medium;
     text-decoration: none;
     font-family: 'Trebuchet MS';
+    justify-content: center;
+    align-items: center
 }
