@@ -2,6 +2,7 @@
     top: 0px;
     border: 0px;
     bottom: 0px;
+    
 }
 .navegacao {
     border: 0px;
@@ -11,12 +12,18 @@
     gap: 180px;
     position: sticky;
     background: rgb(245, 183, 101);
-    font-size: medium;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
     border-radius: 5px;
-    padding: 30px 30px;
-    /*ver como colocar os itens no meio e aumentar header de tamanho*/
+    padding: 30px 30px; 
+}
+
+.navegacao a:hover{
+    color: azure;
+}   
+
+.navegacao a{
+    font-size: medium;
+    font-family: 'Segoe UI';
+    text-align: center;
 }
 
 .container1 {
@@ -34,6 +41,11 @@
 .container3{
     display:flex;
     gap: 60px
+}
+
+.container4{
+    display: flex;
+    gap: 70px;
 }
 
 #etc{
@@ -59,6 +71,11 @@ figcaption {
     opacity: 0.8;
 }
 
+#execessao{
+    text-align: left;
+    opacity: 0.8;
+}
+
 header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -79,11 +96,15 @@ a {
     text-decoration: none;
 }
 
+a:hover{
+    color: #BF7160;
+}
+
 .monarquia {
     max-width: 200;
 }  
 
-h2{
+h2, h1{
     font-family: 'Trebuchet MS';
 }
 
